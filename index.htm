@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="results.htm" method="GET" enctype="multipart/form-data"> 
+        <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="username" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="email" required>
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age">
+    </div>
+    <div>
+        <label for="date">Birthdate</label>
+        <input type="date" name="date" id="date">
+    </div>
+    
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password" required>
+    </div>
+    <div >
+        <label for="bio">Bio
+        </label>
+        <textarea name="bio" id="bio" cols="20" rows="5">dfdfdfd</textarea>
+    </div>
+    <div>
+        <label for="file" id="file"></label>
+        <input type="file" name="file" id="file">
+    </div>
+    <div>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone">
+    </div>
+
+        <button type="submit">Submit</button>
+
+
+
+
+    </form>
+</body>
+</html>
